@@ -54,7 +54,20 @@
     </div>
 
     <script>
-        // JavaScript code goes here   
+        // JavaScript code goes here  
+
+        //generating num to be guessed
+        const guessNum = Math.floor(Math.random * 10) + 1;
+
+        for (let guesses = 3; guesses > 0; guesses--) {
+            //generate random num 1-10
+
+            //get input
+
+            if (num > guessNum) {
+                console.log();
+            };
+        };
 
 
         // TODO: Add a click listener to the button (will be covered more in zyBook 7.4)
